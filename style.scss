@@ -61,19 +61,6 @@ ul {
     grid-template-columns: 1fr 1fr;
   }
 
-
-  &.product-list--a {
-    z-index: 3;
-  }
-
-  &.product-list--b {
-    z-index: 2;
-  }
-
-  &.product-list--c {
-    z-index: 1;
-  }
-
   .column {
     display: none;
   }
@@ -84,9 +71,6 @@ ul {
       display: grid;
     }
   }
-
-
-
 }
 
 .product-item {
@@ -105,15 +89,6 @@ ul {
   }
 }
 
-
-
-
 .footer {
   background-color: lightyellow;
-
-}
-
-.products-grid {
-  // display: grid;
-  // grid-template-columns: 1fr 1fr;
 }

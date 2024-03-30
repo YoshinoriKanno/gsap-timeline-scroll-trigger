@@ -50,15 +50,6 @@ ul {
     grid-template-columns: 1fr 1fr;
   }
 }
-.product-list.product-list--a {
-  z-index: 3;
-}
-.product-list.product-list--b {
-  z-index: 2;
-}
-.product-list.product-list--c {
-  z-index: 1;
-}
 .product-list .column {
   display: none;
 }
