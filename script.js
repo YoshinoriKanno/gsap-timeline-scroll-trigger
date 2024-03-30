@@ -3,17 +3,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
   // gsap code here!
 
   // アニメーションを適用する要素の設定
-  const items = document.querySelectorAll(".product-item");
+  const items = document.querySelectorAll(".product-list");
 
   // GSAPのタイムラインを作成
   const timeline = gsap.timeline({
     scrollTrigger: {
-      trigger: ".product-list", // トリガーとなる要素
+      trigger: ".product-lists", // トリガーとなる要素
       scrub: true, // スクロールに応じてアニメーション
       pin: true, // トリガー要素を固定
       pinSpacing: false, // 固定時のスペーシングを無効
       start: "top top", // トリガーの開始条件
-      endTrigger: "#how-to", // アニメーション終了のトリガー要素
+      endTrigger: ".footer", // アニメーション終了のトリガー要素
       end: "top bottom" // 終了条件
     }
   });

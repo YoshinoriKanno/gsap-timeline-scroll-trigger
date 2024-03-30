@@ -10,18 +10,26 @@
 
   <body>
     <section class="fv">FV</section>
-    <section>
-      <ul class="product-list">
-        <li class="product-item product-item-a">A</li>
-        <li class="product-item product-item-b">B</li>
-        <li class="product-item product-item-c">C</li>
-      </ul>
-
-    </section>
-    <section id="how-to">How To
-
-    </section>
-
+    <div class="products-grid">
+      <section class="column column--vertical">Column</section>
+      <section>
+        <ul class="product-lists">
+          <li class="product-list product-list--a">
+            <section class="column">Column</section>
+            <div class="product-item product-item--a">A</div>
+          </li>
+          <li class="product-list product-list--b">
+            <section class="column">Column</section>
+            <div class="product-item product-item--b">B</div>
+          </li>
+          <li class="product-list product-list--c">
+            <section class="column">Column</section>
+            <div class="product-item product-item--c">C</div>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <section class="footer">Footer</section>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
